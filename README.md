@@ -1,31 +1,31 @@
 # drowsiness_detection_cnn
-Project for our 3rd year minor defense created by our team of: me and Sabina Thapa ( https://github.com/SABINAKSHETTRY )
+Project for our 3rd-year minor defense created by me and my friend Kapil Kunwar ( https://github.com/undef125 )
 
 # Dataset
-1) For eyes: dataset is custom
-2) For yawn: dataset is mixture of images from kaggle and collected by us
+1) For eyes: the dataset is custom
+2) For yawn: the dataset is a mixture of images from Kaggle collected by us
 
 # Processing dataset
-1) image are gathered and the ROI is cropped from images and then splitted manually for test and train
+1) image are gathered and the ROI is cropped from images and then split manually for test and train
 2) Then data augmentation is performed to increase the number of images
 
 # Model
 CNN model as:
 1) Convolution layer
-    It consist of 3 2D convolution layer and used MaxPooling
+    It consists of 3 2D convolution layers and used MaxPooling
 2) Flatten layer:
-    Output from convolution layer is fed to flatten layer
+    Output from the convolution layer is fed to flatten layer
 3) Fully connected layer:
-    It consist of 3 layers. First one is input layer where the output from flatten layer is fed
-    Second one is hidden layer and the last one output layer as sigmoid as activation function
-    which gives result in between 0 and 1
+    It consists of 3 layers. The first one is the input layer where the output from flatten layer is fed
+    The second one is the hidden layer and the last one output layer as sigmoid as an activation function
+    which gives results between 0 and 1
     
 # How To Run
 1) Git clone repo using
     ```sh 
     https://github.com/undef125/drowsiness_detection_cnn.git
     ```
-2) Change directory to our project:
+2) Change the directory to our project:
     ```sh
     cd drowsiness_detection_cnn
     ```
